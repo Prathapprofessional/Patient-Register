@@ -7,7 +7,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.patreg.R;
+import com.example.patreg.api.PatientApi;
+import com.example.patreg.adapter.RetrofitClient;
+import com.example.patreg.model.Patient;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class Register extends AppCompatActivity {
     private static final int REQUEST_IMAGE_CAPTURE = 1;
@@ -34,15 +42,31 @@ public class Register extends AppCompatActivity {
         });
 
         submitButton.setOnClickListener(v -> {
-            String patientDetails = String.format(
-                    "Name: %s %s\nDOB: %s\nWeight: %s\nShoe Size: %s",
+            Patient patient = new Patient(
                     firstName.getText().toString(),
                     lastName.getText().toString(),
                     dob.getText().toString(),
-                    weight.getText().toString(),
-                    shoeSize.getText().toString()
+                    Double.parseDouble(weight.getText().toString()),
+                    Double.parseDouble(shoeSize.getText().toString())
             );
-            Toast.makeText(this, patientDetails, Toast.LENGTH_SHORT).show();
+
+            PatientApi api = RetrofitClient.getClient().create(PatientApi.class);
+            Call<String> call = api.registerPatient(patient);
+            call.enqueue(new Callback<String>() {
+                @Override
+                public void onResponse(Call<String> call, Response<String> response) {
+                    if (response.isSuccessful()) {
+                        Toast.makeText(Register.this, "Patient registered successfully in the Patreg application!", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(Register.this, "Registration failed.Please look out for the errors,alter and try to resubmit", Toast.LENGTH_SHORT).show();
+                    }
+                }
+
+                @Override
+                public void onFailure(Call<String> call, Throwable t) {
+                    Toast.makeText(Register.this, "Error: " + t.getMessage(), Toast.LENGTH_SHORT).show();
+                }
+            });
         });
     }
 }
