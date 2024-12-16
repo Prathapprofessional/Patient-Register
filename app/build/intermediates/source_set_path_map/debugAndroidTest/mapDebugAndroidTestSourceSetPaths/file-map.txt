@@ -1,0 +1,4 @@
+com.example.patreg.test.app-androidTest-0 E:\PrathapUnivSOlution\app\build\generated\res\resValues\androidTest\debug
+com.example.patreg.test.app-mergeDebugAndroidTestResources-1 E:\PrathapUnivSOlution\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.patreg.test.app-mergeDebugAndroidTestResources-2 E:\PrathapUnivSOlution\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.patreg.test.app-debugAndroidTest-3 E:\PrathapUnivSOlution\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

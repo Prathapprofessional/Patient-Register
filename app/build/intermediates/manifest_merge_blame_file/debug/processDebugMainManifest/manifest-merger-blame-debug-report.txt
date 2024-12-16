@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.patreg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <!-- Permissions for Camera -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:19:5-64
+12-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:19:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:20:5-80
+13-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:20:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:21:5-79
+14-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:21:22-77
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\08ab6b09e123053fcc605170d6e5cc0a\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.patreg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\08ab6b09e123053fcc605170d6e5cc0a\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\08ab6b09e123053fcc605170d6e5cc0a\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.patreg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\08ab6b09e123053fcc605170d6e5cc0a\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\08ab6b09e123053fcc605170d6e5cc0a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:4:5-16:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\08ab6b09e123053fcc605170d6e5cc0a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:label="@string/app_name"
+26-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:5:9-41
+27        android:testOnly="true"
+28        android:theme="@style/Theme.PatReg" >
+28-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:6:9-44
+29        <activity
+29-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:8:9-15:20
+30            android:name="com.example.patreg.MainActivity"
+30-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:8:19-47
+31            android:exported="true"
+31-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:10:13-36
+32            android:label="@string/app_name" >
+32-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:9:13-45
+33            <intent-filter>
+33-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:11:13-14:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:12:17-69
+34-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:12:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:13:17-77
+36-->E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:13:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+42            android:authorities="com.example.patreg.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\b7a52a504a3a30fee628be60a7a40331\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sweytha\.gradle\caches\8.9\transforms\c168e40a4568b9a4e92c2a647c52219f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sweytha\.gradle\caches\8.9\transforms\c168e40a4568b9a4e92c2a647c52219f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Sweytha\.gradle\caches\8.9\transforms\c168e40a4568b9a4e92c2a647c52219f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+50        </provider>
+51        <provider
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\Sweytha\.gradle\caches\8.9\transforms\5f1029e6d3207b64e39cd02f215da034\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+52            android:name="com.squareup.picasso.PicassoProvider"
+52-->[com.squareup.picasso:picasso:2.71828] C:\Users\Sweytha\.gradle\caches\8.9\transforms\5f1029e6d3207b64e39cd02f215da034\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+53            android:authorities="com.example.patreg.com.squareup.picasso"
+53-->[com.squareup.picasso:picasso:2.71828] C:\Users\Sweytha\.gradle\caches\8.9\transforms\5f1029e6d3207b64e39cd02f215da034\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+54            android:exported="false" />
+54-->[com.squareup.picasso:picasso:2.71828] C:\Users\Sweytha\.gradle\caches\8.9\transforms\5f1029e6d3207b64e39cd02f215da034\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+55    </application>
+56
+57</manifest>

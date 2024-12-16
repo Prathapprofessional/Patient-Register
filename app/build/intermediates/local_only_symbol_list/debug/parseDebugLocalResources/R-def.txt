@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+id dob
+id firstName
+id lastName
+id registerButton
+id shoeSize
+id submitButton
+id takePhotoButton
+id weight
+layout activity_main
+layout activity_register
+string app_name
+string dob
+string error_message
+string firstname
+string lastname
+string register_patient
+string shoesize
+string submit
+string take_pictures
+string weight

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.patreg.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.patreg.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.patreg.app-debug-32:/layout_activity_register.xml.flat",
+        "source": "com.example.patreg.app-main-34:/layout/activity_register.xml"
+    }
+]
