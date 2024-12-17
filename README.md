@@ -116,7 +116,15 @@ The backend can be mocked and does not have to be implemented by you. However, i
 
 ### What privacy issues are related to this feature?
 
-- insert your answer here
+- In this feature the privacy issues to be noted are,
+- 1. Personalised photos of patients are being used which is sensitive, 
+might lead to identification of feet and can cause privacy concerns.
+- 2. Name,DOB,Weight are personal information which are being captured here so there should not be any leakage or 
+unauthorised access of these data. Might cause legal tensions.
+- 3. If these sensitive data is stored in database or cloud, it should be encrypted and access should be very secure.
+- 4. Here backend is mocked so the data sharing part should be  done with user concerns and secured way. Also there
+should be transparency in usage or processing of these consented data.
+- 5. All regulations of GDPR and BDSG should be abided as mentioned previously.
 
 After completing the tasks please send us an invite to your forked repository (Nikolajewitsch, istiyaksiddiquee ).
 
