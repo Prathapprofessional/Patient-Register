@@ -1,5 +1,8 @@
 R_DEF: Internal format may change without notice
 local
+color purple_500
+color purple_700
+color white
 id dob
 id firstName
 id lastName
@@ -20,3 +23,4 @@ string shoesize
 string submit
 string take_pictures
 string weight
+style Theme.PatReg
