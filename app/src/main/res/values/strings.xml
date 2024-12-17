@@ -1,8 +1,5 @@
 <resources>
-    <!-- Application name -->
     <string name="app_name">Patient Registration</string>
-
-    <!-- UI Texts -->
     <string name="register_patient">Register Patient</string>
     <string name="firstname">First Name</string>
     <string name="lastname">Last Name</string>
@@ -11,7 +8,5 @@
     <string name="shoesize">Shoe Size</string>
     <string name="take_pictures">Take Pictures of Feet</string>
     <string name="submit">Submit</string>
-
-    <!-- Error messages -->
     <string name="error_message">Please fill in all fields.</string>
 </resources>

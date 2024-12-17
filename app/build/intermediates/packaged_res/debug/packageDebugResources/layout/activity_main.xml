@@ -6,12 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Button for Register Patient with increased height -->
     <Button
         android:id="@+id/registerButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Register Patient"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="48dp"
+    android:text="Register Patient"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Patient Registration Form -->
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="First Name"
+        app:layout_constraintTop_toBottomOf="@id/registerButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+    android:hint="Last Name"
+    app:layout_constraintTop_toBottomOf="@id/firstName"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+    android:hint="Date of Birth in format YYYY-MM-DD"
+    app:layout_constraintTop_toBottomOf="@id/lastName"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+    android:hint="Weight"
+    app:layout_constraintTop_toBottomOf="@id/dob"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/shoeSize"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+    android:hint="Shoe Size"
+    app:layout_constraintTop_toBottomOf="@id/weight"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

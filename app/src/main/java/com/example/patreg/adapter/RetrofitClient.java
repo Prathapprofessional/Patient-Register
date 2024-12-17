@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitClient {
     private static Retrofit retrofit;
-    private static final String BASE_URL = "https://mockapi.example.com";
+    private static final String BASE_URL = "https://api.mockapi.com/api/prat";
 
     public static Retrofit getClient() {
         if (retrofit == null) {

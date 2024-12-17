@@ -8,11 +8,8 @@ id firstName
 id lastName
 id registerButton
 id shoeSize
-id submitButton
-id takePhotoButton
 id weight
 layout activity_main
-layout activity_register
 string app_name
 string dob
 string error_message

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:1:1-23:12
-INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:1:1-23:12
-INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:1:1-23:12
-INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:1:1-23:12
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:1:1-27:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\6eb1db1e24640a94ba74cfbae9367563\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Sweytha\.gradle\caches\8.9\transforms\ea1592d44f3d7a3bc69a1e19a44b592d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Sweytha\.gradle\caches\8.9\transforms\874a194000c6183fc71b1d7f942c962b\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -59,9 +59,33 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Sweytha
 		INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:5:5-64
+	android:name
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:8:22-74
+uses-permission#android.permission.INTERNET
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:10:22-76
 application
-ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:4:5-16:19
-INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:4:5-16:19
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:13:5-24:19
+INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:13:5-24:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\6eb1db1e24640a94ba74cfbae9367563\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\6eb1db1e24640a94ba74cfbae9367563\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Sweytha\.gradle\caches\8.9\transforms\ea1592d44f3d7a3bc69a1e19a44b592d\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -83,39 +107,27 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Sweytha\.gradle\ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Sweytha\.gradle\caches\8.9\transforms\13b1e4e10d56fc3c2060988290762598\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:5:9-41
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:6:9-44
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:16:9-44
 activity#com.example.patreg.MainActivity
-ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:8:9-15:20
-	android:label
-		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:9:13-45
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:exported
-		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:10:13-36
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:8:19-47
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:11:13-14:29
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:12:17-69
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:12:25-66
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:13:17-77
+ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:13:27-74
-uses-permission#android.permission.CAMERA
-ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:19:5-64
-	android:name
-		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:19:22-62
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:20:5-80
-	android:name
-		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:20:22-78
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:21:5-79
-	android:name
-		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:21:22-77
+		ADDED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml:21:27-74
 uses-sdk
 INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\PrathapUnivSOlution\app\src\main\AndroidManifest.xml
