@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="white">#FFFFFF</color>
     <string name="app_name">Patient Registration</string>
     <string name="dob">Date of Birth</string>
     <string name="error_message">Please fill in all fields.</string>
@@ -10,4 +13,11 @@
     <string name="submit">Submit</string>
     <string name="take_pictures">Take Pictures of Feet</string>
     <string name="weight">Weight</string>
+    <style name="Theme.PatReg" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
 </resources>
